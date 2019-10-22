@@ -263,7 +263,7 @@ At this point, we have a fairly solid API. We can retrieve all of our data from 
 <details>
 <summary><code> server/getProducts.js </code></summary>
 
-```js
+```jsg
 const products = require('../products.json');
 
 const getProducts = (req, res) => {
