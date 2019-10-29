@@ -1,4 +1,6 @@
 const getProduct = require('../products.json');
+
+ 
     
 const getProduct = (req, res) => {
     if(req.query.price) {
